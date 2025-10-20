@@ -27,6 +27,8 @@ To run tests:
 mvn clean test
 ```
 
+Read more about testing here: https://nightlies.apache.org/flink/flink-docs-release-2.1/docs/dev/datastream/testing/
+
 ## Deployments
 
 I've experimented with AWS Flink, the deployment is done by compling JAR file and uploading it to S3. AWS Flink job is configured with the S3 location of the JAR file.
